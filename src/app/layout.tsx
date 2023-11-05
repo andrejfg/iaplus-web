@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
+import { Providers } from '@/components/providers'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'], variable: '--body-font' })
+const intro = localFont({
+  src: '../fonts/Intro.otf',
+  variable: '--intro-font',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.variable} ${intro.variable}`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
