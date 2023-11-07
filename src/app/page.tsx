@@ -1,9 +1,20 @@
-import { Flex, Text } from '@chakra-ui/react'
+'use client'
+import { Center, Flex, Text } from '@chakra-ui/react'
+
+import LandingHeader from '@/components/LandingHeader'
+import FirstSection from '@/components/FirstSection'
+import SecondSection from '@/components/SecondSection'
+import ThirdSection from '@/components/ThirdSection'
 
 export default function Home() {
   return (
-    <Flex className="bg-iaplus-eggshell min-h-screen">
-      <Text className="font-body">Hello World, André!</Text>
+    <Flex className="min-h-screen flex-1 flex-col bg-iaplus-eggshell">
+      <LandingHeader />
+      <FirstSection />
+      <SecondSection />
+      <Flex className="flex-col bg-[#DBDBFF]">
+        <ThirdSection />
+      </Flex>
     </Flex>
   )
 }

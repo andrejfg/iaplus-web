@@ -16,6 +16,7 @@ const config: Config = {
         iaplus: {
           green: '#45BEAC',
           blue: '#0023EF',
+          button: '#4194F4',
           'dark-blue': '#06062C',
           eggshell: '#FEFEFE',
         },
