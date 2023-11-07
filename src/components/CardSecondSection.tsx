@@ -13,14 +13,14 @@ export default function CardSecondSection({
   content,
 }: CardSecondSectionProps) {
   return (
-    <Center className="h-80 w-60 flex-col gap-4 rounded-xl bg-iaplus-eggshell p-5 shadow-lg">
-      <Center className="h-60 max-lg:h-32">
-        <Image alt="celular" src={src} />
+    <Center className="flex-col rounded-xl bg-iaplus-eggshell px-2 py-4 shadow-lg">
+      <Center className="py-4">
+        <Image className="w-2/3" alt="celular" src={src} />
       </Center>
-      <Text className="text-center font-body text-xl font-bold text-iaplus-blue max-lg:text-base">
+      <Text className="text-center font-body text-xl font-bold text-iaplus-blue max-lg:text-sm">
         {title}
       </Text>
-      <Text className="text-center font-body text-base max-lg:text-sm">
+      <Text className="text-center font-body text-base max-lg:text-xs">
         {content}
       </Text>
     </Center>

@@ -11,7 +11,7 @@ import LandingFooter from '@/components/LandingFooter'
 
 export default function Home() {
   return (
-    <Flex className="min-h-screen flex-1 flex-col bg-iaplus-eggshell">
+    <Flex className="min-h-screen flex-col bg-iaplus-eggshell">
       <LandingHeader />
       <FirstSection />
       <SecondSection />

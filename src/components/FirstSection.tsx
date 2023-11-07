@@ -20,8 +20,8 @@ export default function FirstSection() {
             Contrate consultores digitais, e otimize os resultados utilizando o
             melhor da tecnologia IA, 24H por dia.
           </Text>
-          <Flex className="w-full flex-1 flex-col items-start justify-between gap-10 max-lg:items-center">
-            <Flex className="items-center justify-between gap-4">
+          <Flex className="w-full flex-1 flex-col items-start justify-between gap-10 max-lg:gap-5">
+            <Flex className="items-start justify-between gap-4">
               <Button label="Experimente nossa tecnologia" />
               <LinkText href={''} label={'Saiba mais'} />
             </Flex>

@@ -5,8 +5,8 @@ import GraphCardFourthSection from './GraphCardFourthSection'
 
 export default function FourthSection() {
   return (
-    <Flex className="flex-col gap-8 p-16">
-      <Text className="font-body text-5xl font-bold text-[#3A00BA] max-lg:text-3xl">
+    <Flex className="flex-col gap-8 p-16 max-md:gap-4 max-md:p-8">
+      <Text className="font-body text-5xl font-bold text-[#3A00BA] max-lg:text-3xl max-md:text-lg">
         {'Soluções '}
         <span className="font-normal text-iaplus-dark-blue">IA</span>
         <em className="font-intro not-italic text-iaplus-dark-blue">PLUS</em>

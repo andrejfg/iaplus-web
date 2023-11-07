@@ -25,7 +25,7 @@ export default function CardThirdSection({
       <Flex className="items-center justify-between rounded-lg p-4 shadow-md">
         <Flex className="flex-1 items-center gap-4">
           <Image alt="celular" src={src} />
-          <Text className="font-body text-xl font-extrabold text-iaplus-dark-blue max-lg:text-base">
+          <Text className="px-2 font-body text-xl font-extrabold text-iaplus-dark-blue max-lg:text-base max-md:text-sm max-md:font-bold">
             {title}
           </Text>
         </Flex>
@@ -35,7 +35,7 @@ export default function CardThirdSection({
           }`}
         >
           <ChevronDownIcon
-            className={`text-3xl ${
+            className={`text-3xl max-md:text-base ${
               !visible ? 'text-iaplus-dark-blue' : 'rotate-180 text-white'
             }`}
           />
@@ -43,7 +43,9 @@ export default function CardThirdSection({
       </Flex>
       {visible && (
         <Flex className="p-4 px-8">
-          <Text className="font-body text-base max-lg:text-sm">{content}</Text>
+          <Text className="font-body text-base max-lg:text-sm max-md:text-xs">
+            {content}
+          </Text>
         </Flex>
       )}
     </Flex>

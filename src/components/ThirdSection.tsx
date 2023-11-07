@@ -21,9 +21,9 @@ export default function ThirdSection() {
             src={require('@/assets/detalheFundo.png')}
             alt={'fundo'}
           />
-          <Flex className="z-10 flex-1 flex-col items-center justify-start gap-8 p-10">
+          <Flex className="z-10 flex-1 flex-col items-center justify-start gap-8 p-10 max-lg:p-4">
             <Flex>
-              <Text className="font-body text-4xl font-extrabold tracking-wider text-iaplus-dark-blue max-lg:text-center max-lg:text-3xl">
+              <Text className="font-body text-4xl font-extrabold tracking-wider text-iaplus-dark-blue max-lg:text-center max-lg:text-lg">
                 {'Veja o que a '}
                 <span className="font-normal text-iaplus-blue">IA</span>
                 <em className="font-intro not-italic text-iaplus-blue">PLUS</em>
@@ -33,7 +33,7 @@ export default function ThirdSection() {
               </Text>
             </Flex>
             <Image
-              className="h-fit w-[320px] max-lg:w-[200px] "
+              className="h-fit w-[320px] max-lg:w-[200px] max-md:w-[100px] "
               src={require('@/assets/LogoIAPLUSColoridoVertical.png')}
               alt={'AIPLUSLogoColorida'}
             />
