@@ -5,7 +5,7 @@ import Button from './Button'
 export default function SecondSection() {
   return (
     <Flex className="relative flex-1">
-      <Flex className="absolute -left-40 bottom-10 h-[631px] w-[631px] rounded-full border-[40px] border-[#FCF2F9B2]" />
+      <Flex className="absolute -left-40 bottom-10 h-[631px] w-[631px] max-w-full rounded-full border-[40px] border-[#FCF2F9B2]" />
       <Flex className="z-10 flex-1 flex-col gap-3 p-10 max-lg:p-5">
         <Center>
           <Text className="font-body text-4xl font-bold tracking-widest text-iaplus-dark-blue max-lg:text-2xl">
@@ -36,7 +36,7 @@ export default function SecondSection() {
             </Text>
           </Flex>
           <Flex className="relative flex-1">
-            <Flex className="absolute h-[631px] w-[631px] rounded-full bg-[#FCF2F9B2]" />
+            <Flex className="absolute right-10 top-12 h-[431px] w-[431px] max-w-full rounded-full bg-[#FCF2F9B2]" />
             <Center className="z-10 flex-1 gap-8 p-10">
               <Flex className="flex-1 flex-col gap-8">
                 <CardSecondSection

@@ -1,10 +1,13 @@
 'use client'
-import { Center, Flex, Text } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
 import LandingHeader from '@/components/LandingHeader'
 import FirstSection from '@/components/FirstSection'
 import SecondSection from '@/components/SecondSection'
 import ThirdSection from '@/components/ThirdSection'
+import FifthSection from '@/components/FifthSection'
+import FourthSection from '@/components/FourthSection'
+import LandingFooter from '@/components/LandingFooter'
 
 export default function Home() {
   return (
@@ -12,8 +15,11 @@ export default function Home() {
       <LandingHeader />
       <FirstSection />
       <SecondSection />
-      <Flex className="flex-col bg-[#DBDBFF]">
+      <Flex className="flex-col bg-gradient-to-b from-[#DBDBFF] via-iaplus-green to-iaplus-dark-blue">
         <ThirdSection />
+        <FourthSection />
+        <FifthSection />
+        <LandingFooter />
       </Flex>
     </Flex>
   )
