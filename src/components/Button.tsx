@@ -2,13 +2,11 @@ import { Center, Text } from '@chakra-ui/react'
 
 interface ButttonProps {
   label: string
-  background?: string
+  alt?: boolean
 }
 
-export default function Button({ label, background }: ButttonProps) {
-  const backgroundButton = background
-    ? 'bg-[' + background + ']'
-    : 'bg-iaplus-button'
+export default function Button({ label, alt }: ButttonProps) {
+  const backgroundButton = alt ? 'bg-[#3A00BA]' : 'bg-iaplus-button'
 
   return (
     <Center

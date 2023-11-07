@@ -17,7 +17,7 @@ export default function GraphCardFourthSection() {
           liberando sua equipe para atividades estratégicas. Otimizando todos os
           setores, impulsionando a eficiência e a competitividade.
         </Text>
-        <Button label={'Testar Gratuitamente'} background={'#3A00BA'} />
+        <Button label={'Testar Gratuitamente'} alt />
       </Flex>
       <Flex className="flex-1 max-lg:hidden">
         <Image

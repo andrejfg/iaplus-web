@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function LandingFooter() {
   return (
-    <Flex className="flex-1 flex-col">
+    <Flex className="flex-1 flex-col bg-iaplus-dark-blue">
       <Flex className="flex-1 gap-8 p-10 max-lg:flex-col">
         <Image
           className="h-fit w-52 object-contain"

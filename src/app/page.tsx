@@ -15,12 +15,12 @@ export default function Home() {
       <LandingHeader />
       <FirstSection />
       <SecondSection />
-      <Flex className="flex-col bg-gradient-to-b from-[#DBDBFF] via-iaplus-green to-iaplus-dark-blue">
+      <Flex className="flex-col bg-gradient-to-b from-[#DBDBFF] from-40% via-iaplus-green via-55% to-iaplus-dark-blue">
         <ThirdSection />
         <FourthSection />
         <FifthSection />
-        <LandingFooter />
       </Flex>
+      <LandingFooter />
     </Flex>
   )
 }
