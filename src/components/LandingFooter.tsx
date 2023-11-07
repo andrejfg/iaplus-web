@@ -11,7 +11,7 @@ export default function LandingFooter() {
           alt={'Logo IAPLUS'}
         />
         <Flex className="flex-1 flex-col gap-4 max-lg:flex-row">
-          <Flex className="flex-1">
+          <Flex>
             <Text className="font-body font-semibold text-white">Produto</Text>
           </Flex>
           <Flex className="flex-1 flex-col gap-4">
@@ -25,7 +25,7 @@ export default function LandingFooter() {
           </Flex>
         </Flex>
         <Flex className="flex-1 flex-col gap-4 max-lg:flex-row">
-          <Flex className="flex-1">
+          <Flex>
             <Text className="font-body font-semibold text-white">Soluções</Text>
           </Flex>
           <Flex className="flex-1 flex-col gap-4">
@@ -37,7 +37,7 @@ export default function LandingFooter() {
           </Flex>
         </Flex>
         <Flex className="flex-1 flex-col gap-4 max-lg:flex-row">
-          <Flex className="flex-1">
+          <Flex>
             <Text className="font-body font-semibold text-white">Recursos</Text>
           </Flex>
           <Flex className="flex-1 flex-col gap-4">
@@ -52,7 +52,7 @@ export default function LandingFooter() {
           </Flex>
         </Flex>
         <Flex className="flex-1 flex-col gap-4 max-lg:flex-row">
-          <Flex className="flex-1">
+          <Flex>
             <Text className="font-body font-semibold text-white">Suporte</Text>
           </Flex>
           <Flex className="flex-1 flex-col gap-4">
@@ -66,7 +66,7 @@ export default function LandingFooter() {
           </Flex>
         </Flex>
         <Flex className="flex-1 flex-col gap-4 max-lg:flex-row">
-          <Flex className="flex-1">
+          <Flex>
             <Text className="font-body font-semibold text-white">Empresa</Text>
           </Flex>
           <Flex className="flex-1 flex-col gap-4">
