@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing page for IAPLUS
 
-## Getting Started
+IAPLUS is a leading artificial intelligence technology company, providing a platform of ChatGPT-powered assistants for businesses and the general public. We customize AI solutions using OpenAI and Machine Learning capabilities for companies, in addition to offering ready-made products. Our approach stands out for its ease of use and a humanized experience in interactions with AI. We aim to make AI a subtle and integrated presence in everyday life. Our commitment is to democratize technology, making knowledge discovery in various areas easier and empowering everyone to embrace a smarter and more technological future.
 
-First, run the development server:
+Available: www.iaplus.io
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## 🚀 Getting Started
+
+Step-by-step instructions on setting up the development environment.
+
+### Prerequisites
+
+Make sure you have the following tools installed:
+
+- [Node.js](https://nodejs.org/)
+- [Bun](https://bun.sh/) (optional)
+
+### Installation
+
+1. Clone this repository:
+
+```shell
+git clone https://github.com/andrejfg/iaplus-web.git
+```
+2. Navigate to the project directory:
+
+```shell
+cd iaplus-web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+or
 
-## Learn More
+```shell
+bun install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```shell
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+or
 
-## Deploy on Vercel
+```shell
+bun run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📬 Contact
+<li>Nome: André Felipe Guimarães</li><li>E-mail: <a href="mailto:andrefg.dev@gmail.com" target="_new">andrefg.dev@gmail.com</a></li><li>LinkedIn: <a href="https://www.linkedin.com/in/andrefg/" target="_new">andrefg</a></li>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
