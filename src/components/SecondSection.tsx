@@ -38,7 +38,7 @@ export default function SecondSection() {
           <Flex className="relative flex-1 px-2 py-4">
             <Flex className="absolute right-10 top-12 h-[431px] w-[431px] max-w-full rounded-full bg-[#FCF2F9B2]" />
             <Center className="z-10 flex-1 gap-4">
-              <Flex className="flex-1 flex-col gap-4">
+              <Flex className="flex-1 flex-col items-end gap-4">
                 <CardSecondSection
                   src={require('@/assets/startup.svg')}
                   title={'Produtividade'}

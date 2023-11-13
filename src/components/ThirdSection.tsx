@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function ThirdSection() {
   return (
-    <Flex className="flex-1 flex-col p-20 max-lg:p-10">
+    <Flex className="flex-col p-20 max-lg:p-10 lg:h-screen">
       <Flex className="items-baseline gap-2">
         <Text className="text-center font-body text-3xl font-semibold text-iaplus-blue max-lg:text-lg">
           {'Pilares da '}
@@ -14,14 +14,14 @@ export default function ThirdSection() {
         </Text>
         <ArrowForwardIcon className="text-2xl text-iaplus-blue max-lg:text-sm" />
       </Flex>
-      <Flex className="flex-1 max-lg:flex-col">
-        <Flex className="relative flex-1">
+      <Flex className="flex-1 justify-center max-lg:flex-col">
+        <Flex className="relative flex-1 justify-center">
           <Image
             className="absolute h-full object-cover opacity-50 max-lg:object-contain"
             src={require('@/assets/detalheFundo.png')}
             alt={'fundo'}
           />
-          <Flex className="z-10 flex-1 flex-col items-center justify-start gap-8 p-10 max-lg:p-4">
+          <Flex className="z-10 flex-1 flex-col items-center justify-center gap-8 p-10 max-lg:p-4">
             <Flex>
               <Text className="font-body text-4xl font-extrabold tracking-wider text-iaplus-dark-blue max-lg:text-center max-lg:text-lg">
                 {'Veja o que a '}
@@ -39,7 +39,7 @@ export default function ThirdSection() {
             />
           </Flex>
         </Flex>
-        <Flex className="flex-1 flex-col gap-4">
+        <Flex className="flex-1 flex-col justify-center gap-4">
           <CardThirdSection
             src={require('@/assets/pageUpdate.svg')}
             title={'Tarefas repetitivas e de baixo valor agregado'}

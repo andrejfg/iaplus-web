@@ -13,7 +13,7 @@ export default function CardSecondSection({
   content,
 }: CardSecondSectionProps) {
   return (
-    <Center className="flex-col rounded-xl bg-iaplus-eggshell px-2 py-4 shadow-lg">
+    <Center className="flex-col rounded-xl bg-iaplus-eggshell px-2 py-4 shadow-lg lg:max-w-[30vh]">
       <Center className="py-4">
         <Image className="w-2/3" alt="celular" src={src} />
       </Center>

@@ -5,7 +5,7 @@ import LinkText from '@/components/LinkText'
 import CardFirstSection from '@/components/CardFirstSection'
 export default function FirstSection() {
   return (
-    <Flex className="relative flex-1 flex-col rounded-br-[40%] bg-iaplus-dark-blue">
+    <Flex className="relative flex-col rounded-br-[40%] bg-iaplus-dark-blue lg:h-screen">
       <Image
         className="absolute left-8 h-2/3 w-fit object-contain opacity-70"
         alt="fundo2"
@@ -48,7 +48,7 @@ export default function FirstSection() {
           </Flex>
         </Center>
         <Image
-          className="h-fit w-2/5 max-w-3xl object-contain max-lg:hidden"
+          className="h-[80vh] w-fit object-contain max-lg:hidden"
           alt="celular"
           src={require('@/assets/celular.png')}
         />
