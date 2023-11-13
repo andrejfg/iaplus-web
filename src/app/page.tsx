@@ -12,8 +12,10 @@ import LandingFooter from '@/components/LandingFooter'
 export default function Home() {
   return (
     <Flex className="min-h-screen flex-col bg-iaplus-eggshell">
-      <LandingHeader />
-      <FirstSection />
+      <Flex className="flex-col lg:h-screen">
+        <LandingHeader />
+        <FirstSection />
+      </Flex>
       <SecondSection />
       <Flex className="flex-col bg-gradient-to-b from-[#DBDBFF] from-40% via-iaplus-green via-55% to-iaplus-dark-blue">
         <ThirdSection />

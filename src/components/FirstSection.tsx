@@ -1,18 +1,18 @@
-import { Center, Flex, Text } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import Button from '@/components/Button'
 import LinkText from '@/components/LinkText'
 import CardFirstSection from '@/components/CardFirstSection'
 export default function FirstSection() {
   return (
-    <Flex className="relative flex-col rounded-br-[40%] bg-iaplus-dark-blue lg:h-screen">
+    <Flex className="relative flex-1 flex-col justify-center rounded-br-[40%] bg-iaplus-dark-blue">
       <Image
-        className="absolute left-8 h-2/3 w-fit object-contain opacity-70"
+        className="absolute left-32 h-4/5 w-fit object-contain opacity-70"
         alt="fundo2"
         src={require('@/assets/detalheFundo.png')}
       />
-      <Flex className="z-10 flex-1 items-start p-10 max-lg:p-6">
-        <Center className="flex-1 flex-col gap-4 self-center ">
+      <Flex className="z-10 flex-1 p-10 max-lg:p-6">
+        <Flex className="flex-1 flex-col justify-around gap-4 ">
           <Text className="font-body text-5xl font-bold text-white max-lg:text-2xl">
             IA Desenvolvida com a Tecnologia do ChatGPT 4.0
           </Text>
@@ -20,8 +20,8 @@ export default function FirstSection() {
             Contrate consultores digitais, e otimize os resultados utilizando o
             melhor da tecnologia IA, 24H por dia.
           </Text>
-          <Flex className="w-full flex-1 flex-col items-start justify-between gap-10 max-lg:gap-5">
-            <Flex className="items-start justify-between gap-4">
+          <Flex className="flex-col items-start justify-between gap-10 max-lg:gap-5">
+            <Flex className="items-center gap-4">
               <Button label="Experimente nossa tecnologia" />
               <LinkText href={''} label={'Saiba mais'} />
             </Flex>
@@ -46,7 +46,7 @@ export default function FirstSection() {
               </Flex>
             </Flex>
           </Flex>
-        </Center>
+        </Flex>
         <Image
           className="h-[80vh] w-fit object-contain max-lg:hidden"
           alt="celular"
